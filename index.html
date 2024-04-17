@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>My Podcast Site</title>
+
+        <link href="css.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" type="text/css" href="shadowbox.css">
+
+        <script type="text/javascript" src="shadowbox.js"></script>
+
+        <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+    </head>
+
+
+
+    <body>
+        <div id="wrapper"> <a href="index.html">
+                <div id="header" >
+                    <br>
+                    <img src="images/radio.png" />
+                </div>
+            </a>
+            <br>
+            <p id="menu">Queen's College Podcasting</p>
+            <div id="albums">
+                <p class="feat"> 
+                    Featuring:
+                    <br>
+                    Jane and John Doe
+                    <br>
+                </p>
+                <br>
+                <div class="album"> <a href="images/mars.png" rel="shadowbox">
+                        <img src="images/mars.png" class="image" />
+                    </a>
+                    <div class="text">
+                        <p class="description"> <b>Episode 3: Mars is Heaven </b>
+                            <br>
+                            When a space crew sets down on Mars mankind takes its first steps in a foreign world, but it might not be as foreign as they imagined. </p>
+                    </div>
+                </div>
+                <audio controls>
+                    <source src="audio/episode-three.mp3" type="audio/mpeg">
+                </audio>
+                <br>
+                <br>
+                <hr>
+                <br>
+                <br>
+                <div class="album"> <a href="images/money.png" rel="shadowbox">
+                        <img src="images/money.png" class="image" />
+                    </a>
+                    <div class="text">
+                        <p class="description"> <b>Episode 2: The Rent Money </b>
+                            <br>
+                            Jane and Irma are roommates and the rent has come due. It should be no problem, as they've been on a new budget. But when Irma's friend Alice stops by with an attrative gambling tip Irma must decide who's more urgent, Alice, or the landlady. </p>
+                    </div>
+                </div>
+                <audio controls>
+                    <source src="audio/episode-two.mp3" type="audio/mpeg">
+                </audio>
+                <br>
+                <br>
+                <hr>
+                <br>
+                <br>
+                <div class="album"> <a href="images/england.png" rel="shadowbox">
+                        <img src="images/england.png" class="image" />
+                    </a>
+                    <div class="text">
+                        <p class="description"> <b>Episode 1: Irene's Trip to England</b>
+                            <br>
+                            Jules and Irene are long-time friends in Ocean Hill, but when Irene wins an overseas trip in a raffle at her secretarial club, her first trip outside of the city, Jules advises her friend to plan the trip carefully, and Irene ends up in unexpected places. </p>
+                    </div>
+                </div>
+                <audio controls>
+                    <source src="audio/episode-one.mp3" type="audio/mpeg">
+                </audio>
+                <br>
+                <br>
+                <br>
+                <br>
+            </div>
+        </div>
+
+        <!-- Leave this here for shadowbox -->
+        <script type="text/javascript">
+        Shadowbox.init({
+          displayNav: false
+        });
+        </script>
+    </body>
+</html>
